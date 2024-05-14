@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 900px;
+    width: 850px;
+    margin: 10px;
+}
+
+.upperBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    width: 800px;
+    margin: 10px;
+}
+
+.lowerBody{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 500px;
+    width: 800px;
+    margin: 10px;
+}
+
+.photo{
+    height: 480px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.photo:hover{
+    box-shadow:8px 8px 10px black ;
+}
+
+img{
+    height: 480px;
+    border-radius: 7px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+    height: 450px;
+    margin: 10px;
+}
+
+.name{
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 5px;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.name:hover{
+    background-color: aliceblue;
+    box-shadow:8px 8px 10px black ;
+}
+
+.myprofile{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+
+.bottomL{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 100px;
+    width: 350px;
+}
+
+.bottomR{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 37px;
+    width: 350px;
+}
+
+.skills{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+
+.hobbies{
+    font-size: 25px;
+}
+
+.currentComm{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+}
+
+.pastInv{
+    font-size: 25px;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#three{
+    font-size: 35px;
+}
+
+#one:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#two:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#three:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#four:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+footer{
+    border-top: 2px solid black;
+    height: 20px;
+    font-size: 17px;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+}
